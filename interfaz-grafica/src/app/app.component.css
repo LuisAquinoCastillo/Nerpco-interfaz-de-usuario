@@ -1,7 +1,19 @@
 h1{
-    font-style: unset;
+    font-style: italic;
+}
+
+
+form{
+    position: relative;
+    bottom: -10px;
 }
 
 div{
-    margin: 13px;
+    margin:10px;
+}
+
+input{
+    position: relative;
+    margin: 10px;
+    size: 12px;
 }

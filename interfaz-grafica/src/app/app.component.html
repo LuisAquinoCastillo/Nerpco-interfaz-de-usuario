@@ -1,9 +1,15 @@
 <!--The content below is only a placeholder and can be replaced.-->
     <h1>Prueba de NERPCO</h1>
 <form class="form-inline">
-  <div class="row">
-    <label>Id de autobus:</label><input type="text" formmethod="GET" class="form-control">
-    <button class="btn btn-outline-info">Guardar</button>
+  <div class="formgroup id">
+    Id de autobus:<input type="text" class="form-control form-control-sm">
+    Marca de Autobus:<input type="text" class="form-control form-control-sm" >
+    Tipo de autobus:<input type="text" class="form-control form-control-sm" >
+    Asientos:<input type="number" class="form-control form-control-sm" > 
+  </div>
+  <div>
+    <button class="btn btn-outline-success" (click)="guardarAutobus()">Guardar</button>
+    <button class="btn btn-outline-info" (click)="actualizarAutobus()">Actualizar</button>
   </div>
 </form>
 
